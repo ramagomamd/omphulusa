@@ -1,0 +1,9 @@
+[25-Aug-2015 18:56:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/easy-google-fonts/includes/class-egf-font-utilities.php on line 280
+[25-Aug-2015 18:56:22 UTC] PHP Stack trace:
+[25-Aug-2015 18:56:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[25-Aug-2015 18:56:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/customize.php:65
+[25-Aug-2015 18:56:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:503}() /home/ubuntu/workspace/wp-includes/plugin.php:503
+[25-Aug-2015 18:56:22 UTC] PHP   4. EGF_Customize_Manager->customize_controls_enqueue_scripts() /home/ubuntu/workspace/wp-includes/plugin.php:503
+[25-Aug-2015 18:56:22 UTC] PHP   5. EGF_Customize_Manager->customize_load_all_fonts() /home/ubuntu/workspace/wp-content/plugins/easy-google-fonts/includes/customizer/class-egf-customize-manager.php:229
+[25-Aug-2015 18:56:22 UTC] PHP   6. EGF_Font_Utilities::get_all_fonts() /home/ubuntu/workspace/wp-content/plugins/easy-google-fonts/includes/customizer/class-egf-customize-manager.php:178
+[25-Aug-2015 18:56:22 UTC] PHP   7. EGF_Font_Utilities::get_google_fonts() /home/ubuntu/workspace/wp-content/plugins/easy-google-fonts/includes/class-egf-font-utilities.php:335
